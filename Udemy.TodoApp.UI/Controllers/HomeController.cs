@@ -17,8 +17,13 @@ namespace Udemy.TodoApp.UI.Controllers
         }
         public async Task<IActionResult> Index()
         {
-            var Response = await _workService.GetAll();
-            return View(Response.Data);
+            var response = await _workService.GetAll();
+
+            if (response.ResponseType==ResponseType.NotFound)
+            {
+                return RedirectToAction("Create");
+            }
+            return View(response.Data);
         }
         [HttpGet]
         public async Task<IActionResult> Create()
