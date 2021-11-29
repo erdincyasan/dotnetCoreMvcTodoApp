@@ -1,0 +1,67 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+@model List<WorkListDto>
+<div class="row">
+    <div class="col-md-12">
+        <div class="text-end">
+            <a asp-action="Create" class="btn btn-primary">Yeni İş Ekle</a>
+        </div>
+        @if (Model.Count > 0)
+        {
+             <table class="table table-hover table-bordered">
+                <thead>
+                    <tr>
+                        <th>
+                            İş Tanımı
+                        </th>
+                        <th>
+                            İş Tamamlandı mı?
+                        </th>
+                        <th>
+                            İşlem
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @item.Definition
+                            </td>
+                            <td>
+                                @if (item.IsCompleted)
+                                {
+                                   
+                                    <span class="text-success">
+                                        Yapıldı
+                                    </span>
+
+                                }else
+                                {
+                                    <span class="text-danger">
+                                        Yapılmadı
+                                    </span>
+                                }
+                            </td>
+                            <td>
+                                <a class="btn btn-success" asp-action="Update" asp-route-id="@item.Id">Güncelle</a>
+                                <a class="btn btn-danger"asp-action="Remove" asp-route-id="@item.Id">Sil</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }else{
+           <div class="alert alert-primary">
+               İş listesi mevcut değil
+           </div>
+        }
+    </div>
+
+</div>
+

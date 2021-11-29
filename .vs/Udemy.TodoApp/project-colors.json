@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "c232c872-f55f-43c8-8b9e-9aafccca80aa": {
+      "ProjectGuid": "c232c872-f55f-43c8-8b9e-9aafccca80aa",
+      "DisplayName": "Udemy.TodoApp.DataAccess",
+      "ColorIndex": 0
+    },
+    "95bcfe78-4934-4bae-908c-1e1b7c497b83": {
+      "ProjectGuid": "95bcfe78-4934-4bae-908c-1e1b7c497b83",
+      "DisplayName": "Udemy.TodoApp.Entities",
+      "ColorIndex": 1
+    },
+    "bfc21a8b-b450-442d-a4b7-531817eb2bef": {
+      "ProjectGuid": "bfc21a8b-b450-442d-a4b7-531817eb2bef",
+      "DisplayName": "Udemy.TodoApp.Business",
+      "ColorIndex": 2
+    },
+    "cbd5c1b0-3304-41b4-a696-c6d9e5a4010c": {
+      "ProjectGuid": "cbd5c1b0-3304-41b4-a696-c6d9e5a4010c",
+      "DisplayName": "Udemy.TodoApp.Dtos",
+      "ColorIndex": 3
+    },
+    "c0875746-971c-4170-a50f-fa6bb776a7f1": {
+      "ProjectGuid": "c0875746-971c-4170-a50f-fa6bb776a7f1",
+      "DisplayName": "Udemy.TodoApp.UI",
+      "ColorIndex": 4
+    }
+  },
+  "NextColorIndex": 5
+}

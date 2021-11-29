@@ -1,0 +1,12 @@
+C:\Users\erdinc\source\repos\Udemy.TodoApp\Udemy.TodoApp.Entities\bin\Debug\net5.0\Udemy.TodoApp.Entities.deps.json
+C:\Users\erdinc\source\repos\Udemy.TodoApp\Udemy.TodoApp.Entities\bin\Debug\net5.0\Udemy.TodoApp.Entities.dll
+C:\Users\erdinc\source\repos\Udemy.TodoApp\Udemy.TodoApp.Entities\bin\Debug\net5.0\ref\Udemy.TodoApp.Entities.dll
+C:\Users\erdinc\source\repos\Udemy.TodoApp\Udemy.TodoApp.Entities\bin\Debug\net5.0\Udemy.TodoApp.Entities.pdb
+C:\Users\erdinc\source\repos\Udemy.TodoApp\Udemy.TodoApp.Entities\obj\Debug\net5.0\Udemy.TodoApp.Entities.csproj.AssemblyReference.cache
+C:\Users\erdinc\source\repos\Udemy.TodoApp\Udemy.TodoApp.Entities\obj\Debug\net5.0\Udemy.TodoApp.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\erdinc\source\repos\Udemy.TodoApp\Udemy.TodoApp.Entities\obj\Debug\net5.0\Udemy.TodoApp.Entities.AssemblyInfoInputs.cache
+C:\Users\erdinc\source\repos\Udemy.TodoApp\Udemy.TodoApp.Entities\obj\Debug\net5.0\Udemy.TodoApp.Entities.AssemblyInfo.cs
+C:\Users\erdinc\source\repos\Udemy.TodoApp\Udemy.TodoApp.Entities\obj\Debug\net5.0\Udemy.TodoApp.Entities.csproj.CoreCompileInputs.cache
+C:\Users\erdinc\source\repos\Udemy.TodoApp\Udemy.TodoApp.Entities\obj\Debug\net5.0\Udemy.TodoApp.Entities.dll
+C:\Users\erdinc\source\repos\Udemy.TodoApp\Udemy.TodoApp.Entities\obj\Debug\net5.0\ref\Udemy.TodoApp.Entities.dll
+C:\Users\erdinc\source\repos\Udemy.TodoApp\Udemy.TodoApp.Entities\obj\Debug\net5.0\Udemy.TodoApp.Entities.pdb
